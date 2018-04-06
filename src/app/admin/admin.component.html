@@ -1,32 +1,32 @@
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h3 class="panel-title">Add New Place to list</h3>
+    <h3 class="panel-title">Add New newBouquet to list</h3>
   <div class="panel-body">
     <div>
       <div>
-          <label>Place Image:</label>
+          <label>newBouquet Image:</label>
           <br>
           <input #newImg>
         </div>
 
         <div>
-          <label>Place Wikipedia:</label>
+          <label>newBouquet Referance:</label>
           <br>
-          <input #newWiki>
+          <input #newRef>
         </div>
 
         <div>
-          <label>Place Name:</label>
+          <label>newBouquet Name:</label>
           <br>
           <textarea #newName></textarea>
         </div>
 
         <div>
-          <label>Place Description:</label>
+          <label>newBouquet Description:</label>
           <br>
           <textarea #newDescription></textarea>
         </div>
-        
+
         <button (click)="submitForm(newImg.value, newWiki.value, newName.value, newDescription.value); newImg.value=''; newWiki.value='';newName.value=''; newDescription.value=''">Add</button>
         </div>
     </div>
@@ -34,5 +34,5 @@
 </div>
 
 <div>
-  <app-vacationplace></app-vacationplace>
+  <app-gallerybouquet></app-gallerybouquet>
 </div>

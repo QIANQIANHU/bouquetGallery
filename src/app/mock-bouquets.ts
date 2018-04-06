@@ -1,4 +1,4 @@
-import { Place } from './place.model';
+import { Bouquet } from './bouquet.model';
 
 
 // export const PLACES: Place[] = [

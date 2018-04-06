@@ -1,0 +1,20 @@
+<h4>Edit Bouquet</h4>
+
+<label>New Bouquet Picture:</label>
+<input [(ngModel)]="selectedBouquet.imageUrl">
+<br>
+
+<label>New Bouquet Info:</label>
+<input [(ngModel)]="selectedBouquet.wikiUrl">
+<br>
+
+<label>New Bouquet Name:</label>
+<input [(ngModel)]="selectedBouquet.name">
+<br>
+
+<label>New Bouquet Description:</label>
+<input [(ngModel)]="selectedBouquet.description">
+
+<button (click)="beginUpdatingBouquet(selectedBouquet)">Update</button>
+<hr>
+<button (click)="beginDeletingBouquet(selectedBouquet)">Delete</button>

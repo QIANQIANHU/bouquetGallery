@@ -6,15 +6,14 @@ import { routing } from './app.routing';
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { AboutComponent } from './about/about.component';
-import { VacationplaceComponent } from './vacationplace/vacationplace.component';
-import { PlaceDetailComponent } from './place-detail/place-detail.component';
+
+import { GallerybouquetComponent }   from './gallerybouquet/gallerybouquet.component';
+import { BouquetDetailComponent }   from './bouquet-detail/bouquet-detail.component';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AdminComponent } from './admin/admin.component';
-import { EditPlaceComponent } from './edit-place/edit-place.component';
-// import { AdminComponent } from './admin/admin.component';
-// import { EditPlaceComponent } from './edit-place/edit-place.component';
+import { EditBouquetComponent } from './edit-bouquet/edit-bouquet.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -28,12 +27,10 @@ export const firebaseConfig = {
     AppComponent,
     WelcomeComponent,
     AboutComponent,
-    VacationplaceComponent,
-    PlaceDetailComponent,
+    GallerybouquetComponent,
+    BouquetDetailComponent,
     AdminComponent,
-    EditPlaceComponent,
-    // AdminComponent,
-    // EditPlaceComponent
+    EditBouquetComponent
   ],
   imports: [
     BrowserModule,

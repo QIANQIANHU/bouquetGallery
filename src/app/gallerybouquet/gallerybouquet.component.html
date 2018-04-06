@@ -1,0 +1,22 @@
+<p>
+  Here's some ideas about bouquets you might like
+</p>
+<div class="row">
+    <div *ngFor="let bouquet of bouquets | async" class="col-md-4">
+      <div class="frame">
+        <div class="pictureOfBouquet">
+          <img src="{{bouquet.imageUrl}}" alt="imageUrl" class="rounded">
+        </div>
+        <br>
+        <div class="nameOfBouquet">
+          <button type="button" name="button" class="btn btn-light"><h5 (click)="goToDetailPage(bouquet)"><em>{{bouquet.name}}</em></h5></button>
+        </div>
+
+        <div *ngIf="currentRoute === '/admin'">
+        <p>{{bouquet.description}}</p>
+        <hr>
+          <app-edit-bouquet [selectedBouquet]="bouquet"></app-edit-bouquet>
+        </div>
+      </div>
+    </div>
+</div>

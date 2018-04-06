@@ -1,9 +1,9 @@
 export var masterFirebaseConfig = {
-  apiKey: "AIzaSyCc562cwVzLjJWahbNGtno2RqI9udA2pQw",
-  authDomain: "vacation-places-d594e.firebaseapp.com",
-  databaseURL: "https://vacation-places-d594e.firebaseio.com",
-  projectId: "vacation-places-d594e",
-  storageBucket: "vacation-places-d594e.appspot.com",
-  messagingSenderId: "57103135633"
+  apiKey: "AIzaSyAPwk5IfwpdHVKIcddHZgpRHlGQS6Pz0PM",
+  authDomain: "bouquetgallery-5812e.firebaseapp.com",
+  databaseURL: "https://bouquetgallery-5812e.firebaseio.com",
+  projectId: "bouquetgallery-5812e",
+  storageBucket: "",
+  messagingSenderId: "833510329484"
 
 };

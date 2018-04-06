@@ -1,0 +1,16 @@
+
+  { "bouquets": [{
+      "imageUrl": "imglink",
+      "refUrl": "wikilink",
+      "name": "ExampleBouquet",
+      "description":
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        "imageUrl": "https://images.unsplash.com/photo-1504465669713-b40b83b40eae?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dd83a7f71ce90316d3053b1c803ba561&auto=format&fit=crop&w=2700&q=80",
+        "refUrl": "https://en.wikipedia.org/wiki/Rome",
+        "name": "Bayleaf",
+        "description":
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      }]
+      }
